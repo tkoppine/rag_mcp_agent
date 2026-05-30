@@ -1,0 +1,115 @@
+ACME CORPORATION — EMPLOYEE POLICY HANDBOOK
+Version 3.2 | Effective Date: January 1, 2026
+============================================================
+
+1. CODE OF CONDUCT
+------------------------------------------------------------
+All employees are expected to maintain a professional and respectful work environment. This includes:
+
+- Treating all colleagues, clients, and partners with dignity and respect regardless of race, gender, age, religion, disability, or sexual orientation.
+- Avoiding conflicts of interest. Employees must disclose any personal or financial relationships with vendors, clients, or competitors to their manager and HR within 30 days of the relationship forming.
+- Maintaining confidentiality of proprietary company information, trade secrets, and client data at all times, including after employment ends.
+- Zero tolerance for harassment, bullying, or discriminatory behavior. Violations may result in immediate termination.
+
+
+2. WORK HOURS AND ATTENDANCE
+------------------------------------------------------------
+Standard working hours are Monday through Friday, 9:00 AM to 6:00 PM local time, with a one-hour unpaid lunch break.
+
+- Flexible work hours: Employees may shift their schedule by up to two hours (e.g., 8 AM–5 PM or 10 AM–7 PM) with manager approval.
+- Remote work: Employees in eligible roles may work remotely up to 3 days per week. Full-remote arrangements require VP-level approval and a signed remote work agreement.
+- Attendance: Employees must notify their manager and update their calendar before 9:30 AM on any day they will be absent or significantly late.
+- Overtime: Non-exempt employees working more than 40 hours per week will be compensated at 1.5x their hourly rate. Overtime must be pre-approved by a manager.
+
+
+3. LEAVE POLICY
+------------------------------------------------------------
+3.1 Paid Time Off (PTO)
+Employees accrue PTO based on years of service:
+  - 0–2 years:   15 days per year
+  - 3–5 years:   20 days per year
+  - 6–10 years:  25 days per year
+  - 10+ years:   30 days per year
+
+PTO must be requested at least 5 business days in advance for durations of 3 or more days. Unused PTO up to 10 days may be carried over to the next calendar year. Any excess above 10 days is forfeited at year-end.
+
+3.2 Sick Leave
+Employees receive 10 days of paid sick leave per year. Sick leave does not carry over. A doctor's note is required for absences exceeding 3 consecutive days.
+
+3.3 Parental Leave
+Primary caregivers receive 16 weeks of fully paid parental leave. Secondary caregivers receive 4 weeks of fully paid parental leave. Leave must be taken within 12 months of the birth, adoption, or foster placement of a child.
+
+3.4 Bereavement Leave
+Employees are entitled to up to 5 days of paid bereavement leave for the death of an immediate family member (spouse, child, parent, sibling) and 3 days for extended family (grandparents, in-laws, aunts, uncles).
+
+
+4. EXPENSE REIMBURSEMENT
+------------------------------------------------------------
+The company reimburses reasonable and necessary business expenses incurred while performing job duties.
+
+- All expense claims must be submitted via the Concur expense portal within 30 days of the expense being incurred.
+- Receipts are required for any single expense over $25.
+- Meals: Up to $75 per person for client entertainment meals; up to $40 per person for internal team meals. Alcohol may not exceed 20% of a meal receipt.
+- Travel: Economy class for flights under 6 hours; business class permitted for flights over 6 hours with manager approval. Hotel bookings should not exceed the city's published GSA per diem rate by more than 25%.
+- Personal expenses such as gym memberships, personal subscriptions, and non-business travel are not reimbursable.
+
+
+5. DATA SECURITY AND ACCEPTABLE USE
+------------------------------------------------------------
+Employees are responsible for protecting company data and using company systems appropriately.
+
+- All devices used for company work must have full-disk encryption enabled and be protected by a strong password or biometric lock.
+- Employees must not install unauthorized software on company devices. All software installations must go through IT via the ServiceNow portal.
+- Sensitive data (customer PII, financial records, source code) must not be stored on personal devices, personal cloud accounts, or unencrypted USB drives.
+- Sharing company credentials with anyone, including other employees, is strictly prohibited. Each employee is responsible for all activity performed under their credentials.
+- Employees who suspect a security breach or phishing attempt must report it immediately to security@acme.com or via the #security-alerts Slack channel.
+
+
+6. PERFORMANCE REVIEWS
+------------------------------------------------------------
+ACME conducts formal performance reviews twice per year:
+
+- Mid-Year Check-In (June): Informal review focused on goal progress, feedback, and course correction.
+- Annual Review (December): Formal evaluation used to determine merit increases, bonuses, and promotion eligibility.
+
+Employees are evaluated on: delivery of goals, quality of work, collaboration, communication, and leadership (for senior roles). Ratings are: Exceeds Expectations, Meets Expectations, Partially Meets Expectations, and Does Not Meet Expectations. Employees rated "Does Not Meet Expectations" twice consecutively may be placed on a Performance Improvement Plan (PIP).
+
+
+7. LEARNING AND DEVELOPMENT
+------------------------------------------------------------
+ACME is committed to employee growth.
+
+- Annual learning budget: Each full-time employee receives $2,000 per year to spend on approved courses, conferences, books, or certifications. Unused budget does not roll over.
+- Internal training: Employees are encouraged to attend monthly internal tech talks and quarterly workshops organized by the L&D team.
+- Tuition reimbursement: Employees pursuing job-relevant degrees may apply for up to $5,000 per year in tuition reimbursement. Requires manager and HR approval, and a minimum grade of B.
+
+
+8. HEALTH AND WELLNESS BENEFITS
+------------------------------------------------------------
+- Medical: ACME covers 90% of employee premiums and 70% of dependent premiums for all medical, dental, and vision plans.
+- 401(k): Company matches 100% of employee contributions up to 4% of annual salary. Employees are vested after 2 years.
+- Mental health: All employees have access to 12 free counseling sessions per year through the Employee Assistance Program (EAP). Contact eap@acme.com for details.
+- Wellness stipend: Employees receive a $500 annual wellness stipend for gym memberships, fitness equipment, or wellness apps.
+
+
+9. DISCIPLINARY PROCESS
+------------------------------------------------------------
+Policy violations are addressed through a progressive disciplinary process:
+
+  Step 1 — Verbal Warning: Manager addresses the issue informally and documents the conversation in the HR system.
+  Step 2 — Written Warning: Formal written notice outlining the violation, expected behavior, and consequences of non-compliance.
+  Step 3 — Performance Improvement Plan (PIP): A 30–90 day structured plan with specific measurable goals. Failure to meet PIP goals may result in termination.
+  Step 4 — Termination: Employment ends if issues persist or the violation is severe enough to warrant immediate dismissal.
+
+Certain violations (fraud, harassment, violence, data theft) may result in immediate termination without prior warnings.
+
+
+10. CONTACT INFORMATION
+------------------------------------------------------------
+- HR General Inquiries:       hr@acme.com
+- Benefits Questions:         benefits@acme.com
+- IT Support:                 it-helpdesk@acme.com  |  ext. 4357
+- Security Incidents:         security@acme.com
+- Ethics Hotline (anonymous): 1-800-555-0199  |  ethics.acme.com
+
+This handbook supersedes all prior versions. ACME reserves the right to update these policies at any time. Employees will be notified of material changes via company email.
