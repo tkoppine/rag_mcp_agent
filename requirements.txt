@@ -1,0 +1,16 @@
+# Core LLM / RAG stack
+langchain-community==0.4.2
+langchain-text-splitters==1.1.2
+langchain-huggingface==1.2.2
+langchain-qdrant==1.1.0
+langchain-groq==1.1.2
+langchain-core==1.4.0
+
+# Embedding model backend
+sentence-transformers==5.5.1
+
+# MCP client
+mcp==1.27.2
+
+# Environment variable loading
+python-dotenv==1.2.2
