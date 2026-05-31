@@ -1,6 +1,7 @@
 import os
 import asyncio
 import json
+import time
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 from dotenv import load_dotenv
@@ -86,10 +87,21 @@ async def run_agent(query: str):
             ]
 
             iteration = 0
-            while True:
+            max_iterations = 5
+            while iteration < max_iterations:
                 iteration += 1
                 print(f"--- LLM iteration {iteration} ---")
-                response = llm_with_tools.invoke(messages)
+                for attempt in range(3):
+                    try:
+                        response = llm_with_tools.invoke(messages)
+                        break
+                    except Exception as e:
+                        if "429" in str(e) and attempt < 2:
+                            wait = 25
+                            print(f"  Rate limit hit, waiting {wait}s...")
+                            time.sleep(wait)
+                        else:
+                            raise
 
                 if not response.tool_calls:
                     # LLM has enough context — final answer
@@ -105,7 +117,7 @@ async def run_agent(query: str):
                     print(f"  LLM calls tool: '{name}' with args: {args}")
 
                     result = await session.call_tool(name, arguments=args)
-                    tool_output = result.content[0].text
+                    tool_output = result.content[0].text[:800]  # keep context small for TPM limit
 
                     print(f"  Tool returned {len(tool_output)} chars.\n")
 

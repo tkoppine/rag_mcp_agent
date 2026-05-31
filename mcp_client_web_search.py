@@ -36,15 +36,16 @@ async def fetch_web_context(query: str, max_results: int = 3) -> list[dict]:
             )
             search_text = search_response.content[0].text
 
-            # Step 2: extract URLs from results
-            urls = list(dict.fromkeys(re.findall(r'https?://[^\s)\]"]+', search_text)))
+            # Step 2: extract URLs from results, skip PDFs
+            raw_urls = re.findall(r'https?://[^\s)\]",]+', search_text)
+            urls = [u for u in dict.fromkeys(raw_urls) if not u.lower().endswith(".pdf")]
 
             # Step 3: fetch page content for each URL
             for url in urls[:max_results]:
                 try:
                     fetch_response = await session.call_tool(
-                        "fetch_content",          # correct tool name from the server
-                        arguments={"url": url, "max_length": 3000},
+                        "fetch_content",
+                        arguments={"url": url, "max_length": 3000, "backend": "auto"},
                     )
                     content = fetch_response.content[0].text
                     results.append({"url": url, "content": content})
